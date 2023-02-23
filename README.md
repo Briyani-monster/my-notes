@@ -1,1 +1,3 @@
-"# my-notes" 
+# my-notes
+
+my text hello this is file is buddy
