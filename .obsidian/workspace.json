@@ -148,11 +148,16 @@
   },
   "active": "1d70ba654ee57cf3",
   "lastOpenFiles": [
+    "bot/pnpm-lock.yaml",
+    "bot/package-lock.json",
+    "bot/package.json",
+    "bot/index.js",
+    "bot",
+    "New folder",
     "package-lock.json",
     "package.json",
     "index.js",
     "pnpm-lock.yaml",
-    "New shortcut.lnk",
-    "New folder"
+    "New shortcut.lnk"
   ]
 }
