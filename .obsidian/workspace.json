@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f4572ffe79bf2add",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Notes/first text.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend Notes/first text.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend Notes/first text.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend Notes/first text.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4572ffe79bf2add",
+  "active": "1d70ba654ee57cf3",
   "lastOpenFiles": [
-    "README.md",
+    "Untitled.canvas",
     "Backend Notes/first text.md",
+    "README.md",
     "Backend Notes",
     "bot/node_modules/markdownify/README.md",
     "bot/node_modules/markdownify/package.json",
@@ -203,7 +191,6 @@
     "bot/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "bot/node_modules/undici/docs/api/ProxyAgent.md",
     "bot/node_modules/undici/docs/api/WebSocket.md",
-    "bot/node_modules/undici/docs/api/PoolStats.md",
-    "bot/node_modules/undici/docs/api/Pool.md"
+    "bot/node_modules/undici/docs/api/PoolStats.md"
   ]
 }
