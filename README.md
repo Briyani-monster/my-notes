@@ -1,1 +1,1 @@
-lets start writing my notes here buddy this is first note of my
+lets start writing my notes here buddy this is first note of my from obsidian
