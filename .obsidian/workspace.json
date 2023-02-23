@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4572ffe79bf2add",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend Notes/first text.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Backend Notes/first text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Backend Notes/first text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Backend Notes/first text.md"
               }
             }
           }
@@ -146,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d70ba654ee57cf3",
+  "active": "f4572ffe79bf2add",
   "lastOpenFiles": [
+    "README.md",
+    "Backend Notes/first text.md",
+    "Backend Notes",
     "bot/node_modules/markdownify/README.md",
     "bot/node_modules/markdownify/package.json",
     "bot/node_modules/markdownify/markdownify.js",
@@ -158,7 +174,6 @@
     "bot/node_modules/discord.js/src/client/websocket/handlers/TYPING_START.js",
     "bot/node_modules/discord.js/src/client/websocket/handlers/USER_UPDATE.js",
     "bot/node_modules/discord.js/src/client/websocket/handlers/THREAD_UPDATE.js",
-    "bot/node_modules/discord.js/src/client/websocket/handlers/THREAD_MEMBER_UPDATE.js",
     "bot/node_modules/discord.js/README.md",
     "bot/node_modules/discord.js/CHANGELOG.md",
     "bot/node_modules/child_process/README.md",
@@ -189,8 +204,6 @@
     "bot/node_modules/undici/docs/api/ProxyAgent.md",
     "bot/node_modules/undici/docs/api/WebSocket.md",
     "bot/node_modules/undici/docs/api/PoolStats.md",
-    "bot/node_modules/undici/docs/api/Pool.md",
-    "bot/node_modules/undici/docs/api/MockPool.md",
-    "bot/node_modules/undici/docs/api/MockErrors.md"
+    "bot/node_modules/undici/docs/api/Pool.md"
   ]
 }
