@@ -149,8 +149,8 @@
   "active": "1d70ba654ee57cf3",
   "lastOpenFiles": [
     "bot/pnpm-lock.yaml",
-    "bot/package-lock.json",
     "bot/package.json",
+    "bot/package-lock.json",
     "bot/index.js",
     "bot",
     "New folder",
