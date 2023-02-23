@@ -147,5 +147,12 @@
     }
   },
   "active": "1d70ba654ee57cf3",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "package-lock.json",
+    "package.json",
+    "index.js",
+    "pnpm-lock.yaml",
+    "New shortcut.lnk",
+    "New folder"
+  ]
 }
