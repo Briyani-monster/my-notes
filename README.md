@@ -1,3 +1,1 @@
-# my-notes
-
-my text hello this is file is buddy
+lets start writing my notes here buddy this is first note of my
