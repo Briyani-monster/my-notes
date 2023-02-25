@@ -49,26 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend Notes/starting Project.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbdec29ffe289f4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Notes/Sequilize.md",
+                "file": "Backend Notes/BODY PARSER.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "73bb5eff58ec1336",
@@ -135,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend Notes/Sequilize.md",
+                "file": "Backend Notes/BODY PARSER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend Notes/Sequilize.md",
+                "file": "Backend Notes/BODY PARSER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend Notes/Sequilize.md"
+                "file": "Backend Notes/BODY PARSER.md"
               }
             }
           }
@@ -196,11 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbdec29ffe289f4c",
+  "active": "737108d6a159dbf2",
   "lastOpenFiles": [
-    "Backend Notes/MySql setup.md",
     "www.sequelize.org.md",
     "Backend Notes/Sequilize.md",
+    "Backend Notes/BODY PARSER.md",
+    "Backend Notes/MySql setup.md",
     "Backend Notes/starting Project.md",
     "Backend Notes/helping things.md",
     "Backend Notes/E js.md",
@@ -241,7 +229,6 @@
     "bot/node_modules/util-deprecate/README.md",
     "bot/node_modules/util-deprecate/History.md",
     "bot/node_modules/undici/docs/best-practices/writing-tests.md",
-    "bot/node_modules/undici/docs/best-practices/proxy.md",
     "bot/node_modules/undici/docs/assets/lifecycle-diagram.png"
   ]
 }
