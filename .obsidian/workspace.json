@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "73bb5eff58ec1336",
@@ -183,7 +184,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "737108d6a159dbf2",
+  "active": "336c0278083bc715",
   "lastOpenFiles": [
     "Backend Notes/helping things.md",
     "Backend Notes/starting Project.md",
