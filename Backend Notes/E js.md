@@ -1,3 +1,9 @@
+`set file as ejs`
+
+```
+app.set('view engine', 'ejs');
+app.set('views', 'views');
+```
 
 `head.ejs`
 
