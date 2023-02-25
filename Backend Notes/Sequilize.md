@@ -173,7 +173,10 @@ DataTypes.INTEGER            // INTEGERDataTypes.BIGINT             // BIGINTDat
 In MySQL and MariaDB, the data types `INTEGER`, `BIGINT`, `FLOAT` and `DOUBLE` can be set as unsigned or zerofill (or both), as follows:
 
 ```
-DataTypes.INTEGER.UNSIGNEDDataTypes.INTEGER.ZEROFILLDataTypes.INTEGER.UNSIGNED.ZEROFILL// You can also specify the size i.e. INTEGER(10) instead of simply INTEGER// Same for BIGINT, FLOAT and DOUBLE
+DataTypes.INTEGER.UNSIGNED
+DataTypes.INTEGER.ZEROFILL
+DataTypes.INTEGER.UNSIGNED.ZEROFILL
+// You can also specify the size i.e. INTEGER(10) instead of simply INTEGER// Same for BIGINT, FLOAT and DOUBLE
 ```
 
 ### Dates[​](https://sequelize.org/docs/v6/core-concepts/model-basics/#dates "Direct link to Dates")
