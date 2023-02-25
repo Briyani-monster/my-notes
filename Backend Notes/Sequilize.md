@@ -19,6 +19,7 @@ $ npm install --save oracledb # Oracle Database
 also need body parser to parse values
 
 #### database connection folder
+`database.js`
 ```
 const { Sequelize } = require('sequelize');  
   
@@ -38,6 +39,8 @@ const sequelize = new Sequelize('database', 'username', 'password', {
 host: 'localhost',  
 dialect: /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */  
 });
+
+module.export=sequelize;
 ```
 
 
@@ -51,3 +54,36 @@ try {
 }
 ```
 
+# 1.   MODELS Basics
+
+
+it is a essence of sequelize.
+abstraction view of table in database
+`MODEL NAME` should always be singular
+
+
+MODELS FOLDER
+`Userjs`
+
+```
+const { Sequelize, DataTypes } = require('sequelize');
+
+const sequelize = require('..database.js');
+
+const User = sequelize.define('User', {
+  //  Model attributes are defined here
+  firstName: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
+  lastName: {
+    type: DataTypes.STRING
+    // allowNull defaults to true
+  }
+}, {
+  // Other model options go here
+});
+
+// `sequelize.define` also returns the model
+console.log(User === sequelize.models.User); // true
+```
