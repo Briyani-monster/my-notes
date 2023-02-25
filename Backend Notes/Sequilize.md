@@ -92,12 +92,19 @@ console.log(User === sequelize.models.User); // true
 
 `to sync table`
 
-`user.sync()` or `sequelize.sync()` 
+`user.sync()` or `sequelize.sync()` This creates the table if it doesn't exist (and does nothing if it already exists)
 
 -   `User.sync({ force: true })` - This creates the table, dropping it first if it already existed
 
 -   `User.sync({ alter: true })` - This checks what is the current state of the table in the database (which columns it has, what are their data types, etc), and then performs the necessary changes in the table to make it match the model.
 
+### Database safety check[​](https://sequelize.org/docs/v6/core-concepts/model-basics/#database-safety-check "Direct link to Database safety check")
+
+As shown above, the `sync` and `drop` operations are destructive. Sequelize accepts a `match` option as an additional safety check, which receives a RegExp:
+
+```
+// This will run .sync() only if database name ends with '_test'sequelize.sync({ force: true, match: /_test$/ });
+```
 
 `droping table`
 
