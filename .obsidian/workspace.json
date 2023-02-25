@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fbdec29ffe289f4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend Notes/MySql setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "73bb5eff58ec1336",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend Notes/starting Project.md",
+                "file": "Backend Notes/MySql setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend Notes/starting Project.md",
+                "file": "Backend Notes/MySql setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend Notes/starting Project.md"
+                "file": "Backend Notes/MySql setup.md"
               }
             }
           }
@@ -184,10 +195,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "336c0278083bc715",
+  "active": "fbdec29ffe289f4c",
   "lastOpenFiles": [
-    "Backend Notes/helping things.md",
     "Backend Notes/starting Project.md",
+    "Backend Notes/MySql setup.md",
+    "Backend Notes/helping things.md",
     "Backend Notes/E js.md",
     "README.md",
     "Untitled.canvas",
@@ -229,7 +241,6 @@
     "bot/node_modules/undici/docs/best-practices/proxy.md",
     "bot/node_modules/undici/docs/best-practices/mocking-request.md",
     "bot/node_modules/undici/docs/best-practices/client-certificate.md",
-    "bot/node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "bot/node_modules/undici/docs/api/ProxyAgent.md"
+    "bot/node_modules/undici/docs/assets/lifecycle-diagram.png"
   ]
 }
