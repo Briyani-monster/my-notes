@@ -214,3 +214,8 @@ There are other data types, covered in a [separate guide](https://sequelize.org
 
 	2. create which saves and build
 		1. const jane=User.create({name:"Jane"})
+
+```
+console.log(jane.toJSON());
+```
+
