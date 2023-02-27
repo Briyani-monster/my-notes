@@ -207,3 +207,10 @@ There are other data types, covered in a [separate guide](https://sequelize.org
 
 # 2.  Model instance
 
+	1. build and save
+		1.  const jane=User.build({name:"Jane"})
+		2. await jane.save()
+
+
+	2. create which saves and build
+		1. const jane=User.create({name:"Jane"})
