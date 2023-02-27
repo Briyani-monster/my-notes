@@ -203,3 +203,7 @@ For UUIDs, use `DataTypes.UUID`. It becomes the `UUID` data type for PostgreS
 ### Others[​](https://sequelize.org/docs/v6/core-concepts/model-basics/#others "Direct link to Others")
 
 There are other data types, covered in a [separate guide](https://sequelize.org/docs/v6/other-topics/other-data-types/).
+
+
+# 2.  Model instance
+
