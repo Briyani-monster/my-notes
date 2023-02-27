@@ -215,7 +215,82 @@ There are other data types, covered in a [separate guide](https://sequelize.org
 	2. create which saves and build
 		1. const jane=User.create({name:"Jane"})
 
+
+## `Note: logging instances`
+
 ```
 console.log(jane.toJSON());
 ```
 
+## Updating an instances
+
+```
+1. create and adding value
+
+	const jane = await User.create({ name: "Jane" });  
+	console.log(jane.name); // "Jane"  
+	jane.name = "Ada";  
+	// the name is still "Jane" in the database  
+	await jane.save();  
+	// Now the name was updated to "Ada" in the database!
+```
+
+```
+2. set method
+
+	const jane = await User.create({ name: "Jane" });  
+	jane.set({  
+		name: "Ada",  
+		favoriteColor: "blue"  
+	});  
+	// As above, the database still has "Jane" and "green"  
+	await jane.save();  
+	// The database now has "Ada" and "blue" for name and favorite color
+```
+
+```
+3. update method
+	const jane = await User.create({ name: "Jane" });  
+	jane.favoriteColor = "blue"  
+	await jane.update({ name: "Ada" })  
+	// The database now has "Ada" for name, but still has the default "green" for favorite color  
+	await jane.save()  
+	// Now the database has "Ada" for name and "blue" for favorite color
+```
+
+## Deleting an instance[​](https://sequelize.org/docs/v6/core-concepts/model-instances/#deleting-an-instance "Direct link to Deleting an instance")
+
+You can delete an instance by calling [`destroy`](https://sequelize.org/api/v6/class/src/model.js~Model.html#instance-method-destroy):
+
+```
+const jane = await User.create({ name: "Jane" });
+console.log(jane.name); // "Jane"await jane.destroy();// Now this entry was removed from the database
+```
+
+## Reloading an instance[​](https://sequelize.org/docs/v6/core-concepts/model-instances/#reloading-an-instance "Direct link to Reloading an instance")
+
+You can reload an instance from the database by calling [`reload`](https://sequelize.org/api/v6/class/src/model.js~Model.html#instance-method-reload):
+
+```
+const jane = await User.create({ name: "Jane" });console.log(jane.name); // "Jane"jane.name = "Ada";// the name is still "Jane" in the databaseawait jane.reload();console.log(jane.name); // "Jane"
+```
+
+The reload call generates a `SELECT` query to get the up-to-date data from the database.
+
+## Incrementing and decrementing integer values[​](https://sequelize.org/docs/v6/core-concepts/model-instances/#incrementing-and-decrementing-integer-values "Direct link to Incrementing and decrementing integer values")
+
+In order to increment/decrement values of an instance without running into concurrency issues, Sequelize provides the [`increment`](https://sequelize.org/api/v6/class/src/model.js~Model.html#instance-method-increment) and [`decrement`](https://sequelize.org/api/v6/class/src/model.js~Model.html#instance-method-decrement) instance methods.
+
+```
+const jane = await User.create({ name: "Jane", age: 100 });const incrementResult = await jane.increment('age', { by: 2 });// Note: to increment by 1 you can omit the `by` option and just do `user.increment('age')`// In PostgreSQL, `incrementResult` will be the updated user, unless the option// `{ returning: false }` was set (and then it will be undefined).// In other dialects, `incrementResult` will be undefined. If you need the updated instance, you will have to call `user.reload()`.
+```
+
+You can also increment multiple fields at once:
+
+```
+const jane = await User.create({ name: "Jane", age: 100, cash: 5000 });await jane.increment({  'age': 2,  'cash': 100});// If the values are incremented by the same amount, you can use this other syntax as well:await jane.increment(['age', 'cash'], { by: 2 });
+```
+
+Decrementing works in the exact same way.
+
+# 3. MODEL QUERYING
