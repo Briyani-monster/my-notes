@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "967c09493b33476e",
+        "id": "eb517b5bae73bbce",
         "type": "tabs",
         "children": [
           {
-            "id": "1d70ba654ee57cf3",
+            "id": "74c741b9b2ee6e26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bba7015bf9864be7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Notes/E js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fec56693e5b405c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Notes/helping things.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "737108d6a159dbf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Notes/Sequilize.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "73bb5eff58ec1336",
@@ -123,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend Notes/Sequilize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend Notes/Sequilize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Backend Notes/Sequilize.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -184,11 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "737108d6a159dbf2",
+  "active": "336c0278083bc715",
   "lastOpenFiles": [
+    "Backend Detailed Notes/Understanding Basics",
+    "Untitled 1",
+    "Untitled",
+    "Backend Detailed Notes",
+    "Backend Notes/Sequilize.md",
     "Backend Notes/BODY PARSER.md",
     "www.sequelize.org.md",
-    "Backend Notes/Sequilize.md",
     "Backend Notes/MySql setup.md",
     "Backend Notes/starting Project.md",
     "Backend Notes/helping things.md",
@@ -204,9 +162,6 @@
     "bot/node_modules/discord.js/src/client/websocket/handlers/VOICE_STATE_UPDATE.js",
     "bot/node_modules/discord.js/src/client/websocket/handlers/WEBHOOKS_UPDATE.js",
     "bot/node_modules/discord.js/src/client/websocket/handlers/VOICE_SERVER_UPDATE.js",
-    "bot/node_modules/discord.js/src/client/websocket/handlers/TYPING_START.js",
-    "bot/node_modules/discord.js/src/client/websocket/handlers/USER_UPDATE.js",
-    "bot/node_modules/discord.js/src/client/websocket/handlers/THREAD_UPDATE.js",
     "bot/node_modules/discord.js/README.md",
     "bot/node_modules/discord.js/CHANGELOG.md",
     "bot/node_modules/child_process/README.md",
@@ -229,7 +184,6 @@
     "bot/node_modules/readable-stream/CONTRIBUTING.md",
     "bot/node_modules/util-deprecate/README.md",
     "bot/node_modules/util-deprecate/History.md",
-    "bot/node_modules/undici/docs/best-practices/writing-tests.md",
     "bot/node_modules/undici/docs/assets/lifecycle-diagram.png"
   ]
 }
